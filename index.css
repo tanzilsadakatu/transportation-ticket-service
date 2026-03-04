@@ -1,3 +1,91 @@
-.navigation-bar {
+body {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px #999;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #999;
+}
+
+.main-content {
+  display: block;
+  max-width: 720px;
+  margin: auto;
+}
+
+/* Navigation */
+
+.top-bar {
   display: flex;
+  flex-direction: row;
+  padding: 20px 0px;
+  box-sizing: border-box;
+}
+
+.top-bar .logo {
+  margin-left: 25px;
+  width: 30%;
+}
+
+.top-bar .navigation {
+  width: 70%;
+  flex-wrap: wrap;
+}
+
+.top-bar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.top-bar a {
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 25px;
+  box-sizing: border-box;
+  color: #000;
+}
+
+/* Homepage image links */
+
+.image-link-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-link-container .item {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: 0.1s;
+}
+
+.image-link-container .item:hover {
+  transform: scale(101%);
+  transition: 0.1s;
+}
+
+.image-link-container img {
+  display: block;
+  width: 100%;
 }
