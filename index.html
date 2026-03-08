@@ -12,6 +12,7 @@
   <header>
     <div class="top-bar">
       <img class="logo" src="site-logo.png" alt="website logo">
+      
       <nav class="navigation">
         <ul>
           <li><a href="#" class="highlighted-link">Bus</a></li>
@@ -35,15 +36,26 @@
         <br>
 
         <!-- Fields -->
-        <label for="location-from">From</label>
-        <input type="search" name="location-field" id="location-from">
+        <div class="dashboard-item-container">
+          <div class="dashboard-item">
+            <label for="location-from">From</label>
+            <input type="search" name="location-field" id="location-from">
+          </div>
 
-        <label for="location-to">To</label>
-        <input type="search" name="location-field" id="location-to">
+          <div class="dashboard-item">
+            <label for="location-to">To</label>
+            <input type="search" name="location-field" id="location-to">
+          </div>
 
-        <label for="trip-date">Journey date</label>
-        <input type="date" name="ticket-date" id="trip-date">
+          <div class="dashboard-item">
+            <label for="trip-date">Journey date</label>
+            <input type="date" name="ticket-date" id="trip-date">
+          </div>
 
+          <div class="dashboard-item">
+            <button type="submit">Search</button>
+          </div>
+        </div>
       </div>
     </div>
   </main>
