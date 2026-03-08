@@ -108,12 +108,11 @@ footer {
 .dashboard-container {
   display: block;
   width: 100%;
-  height: 500px;
+  height: 450px;
   margin: 0;
-  padding-top: 350px;
-  padding-bottom: 20px;
+  padding-top: 250px;
+  padding-bottom: 25px;
   box-sizing: border-box;
-
   background-image: url("bus-stand-background.png");
 }
 
@@ -147,4 +146,12 @@ footer {
   height: 50px;
   border-radius: 10px;
   border: 1px solid #aaaaaa;
+}
+
+.dashboard-item button {
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #53B365;
+  border: none;
 }
